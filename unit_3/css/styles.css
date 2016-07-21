@@ -1,0 +1,25 @@
+/*body {
+    background-color: green;
+}
+
+h1, p {
+    color: pink;
+
+}*/
+body {
+  text-align: center;
+  background: url("/Users/kellyshaffer/Desktop/familyshield.jpg")no-repeat fixed center;
+  background-size: cover;
+  color: black;
+  font-family: Helvetica;
+}
+#Slogan {font-style: italic;
+}
+
+hr {
+  width: 280px;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+}
