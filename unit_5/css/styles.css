@@ -4,7 +4,7 @@
 body {
   padding: 50px 30px 50px 80px;
   text-align: center;
-  background: url("/Users/kellyshaffer/Desktop/familyshield.jpg")no-repeat fixed center;
+  background: url("../images/familyshield.jpg")no-repeat fixed center;
   background-size: cover;
   color: purple;
   font-family: "Montserrat", cursive;
