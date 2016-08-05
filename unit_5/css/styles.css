@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700italic,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  padding: 50px 30px 50px 80px;
+  text-align: center;
+  background: url("/Users/kellyshaffer/Desktop/familyshield.jpg")no-repeat fixed center;
+  background-size: cover;
+  color: purple;
+  font-family: "Montserrat", cursive;
+  font-style: bold;
+}
 header {
     background-color: #FFED74;
     border: 1px black solid;
@@ -25,16 +35,7 @@ aside {
     border: 1px black solid;
     padding: 20px;
 }
-body {
-  padding: 50px 30px 50px 80px;
-  text-align: center;
-  background: url("/Users/kellyshaffer/Desktop/familyshield.jpg")no-repeat fixed center;
-  background-size: cover;
-  color: purple;
-  font-family: "Montserrat", cursive;
-  font-style: bold;
-}
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700italic,400);
+
 #Slogan {
   font-family: "Josefin Sans", Helvetica;
   font-style: italic;
