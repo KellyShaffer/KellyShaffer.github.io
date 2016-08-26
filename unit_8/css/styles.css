@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:700italic,400);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  padding: 50px 30px 50px 80px;
+  text-align: center;
+  background: url("../images/familyshield.jpg")no-repeat fixed center;
+  background-size: cover;
+  color: purple;
+  font-family: "Montserrat", cursive;
+  font-style: bold;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+header {
+    background-color: #006666;
+    border: 1px black solid;
+    padding: 20px;
+    clear: both;
+}
+nav {
+    background-color: #006666;
+    font-family: "Montserrat", cursive;
+}
+a {
+  background-color: #006666;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: #aaaaaa;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+footer{
+    background-color: #009999;
+    border: 1px black solid;
+    padding: 20px;
+    clear: both;
+}
+/*article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+
+#slogan {
+  font-family: "Josefin Sans", Helvetica;
+  font-style: italic;
+  font-size: 60;
+  line-height: 1.5em;
+  margin: 2em;
+}
+.fonts {
+  font-family: "Josefin Sans", Helvetica;
+  font-size: 34;
+}
+#pic{
+  height: 30%;
+  width: 40%;
+  float: left;
+}
+#email{
+ float: center;
+}
+li{
+  padding: 0px 30px 0px 0px;
+  text-align: center;
+}
+
+
+
+
