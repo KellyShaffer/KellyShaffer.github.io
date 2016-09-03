@@ -1,11 +1,10 @@
-h1 {
+/*h1 {
 	color: red;
 }
 #pic{
   	height: 500%;
   	width: 400%;
-  	/*float: left;
- 	border: 5px green solid;*/
+  	
 }
 .nav-menu{
 	color: green;
@@ -14,4 +13,32 @@ h1 {
 	div.nav-menu ul li {
 		float: none;
 	}
+}
+*/
+@media screen and (max-width:680px) {
+  ul.clearfix li:not(:first-child) {display: none;}
+  ul.clearfix li.icon {
+    float: right;
+    display: inline-block;
+  }
+  #nav-menu{
+  	clear: both;
+  }
+}
+ 
+@media screen and (max-width:480px) {
+  ul.clearfix.responsive {position: relative;}
+  ul.clearfix.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.clearfix.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.clearfix.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }

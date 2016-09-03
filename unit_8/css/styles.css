@@ -14,7 +14,7 @@ section {
   background-color: #aaaaaa;
   display: block;
   padding: 50px;
-  opacity: .8;
+  /*opacity: .8;*/
 }
 ul{
     list-style: none;
@@ -45,6 +45,9 @@ a {
 
 a:hover {
   background-color: #aaaaaa;
+}
+a.clearfix{
+  display: block;
 }
 .clearfix:after {
   visibility: hidden;
@@ -89,7 +92,8 @@ aside {
   float: left;
 }*/
 #email{
- float: center;
+ text-align: center;
+ clear: both;
 }
 li{
   padding: 0px 30px 0px 0px;
