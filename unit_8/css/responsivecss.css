@@ -2,10 +2,10 @@ h1 {
 	color: red;
 }
 #pic{
-  	height: 30%;
-  	width: 40%;
-  	float: left;
- 	border: 5px green solid;
+  	height: 500%;
+  	width: 400%;
+  	/*float: left;
+ 	border: 5px green solid;*/
 }
 .nav-menu{
 	color: green;

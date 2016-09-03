@@ -1,0 +1,42 @@
+/*h1 {
+	color: red;
+}
+#pic{
+  	height: 500%;
+  	width: 400%;
+  	
+}
+.nav-menu{
+	color: green;
+}
+@media screen and (max-width: 480px) {
+	div.nav-menu ul li {
+		float: none;
+	}
+}*/
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon)*/
+@media screen and (max-width:680px) {
+  ul.clearfix li:not(:first-child) {display: none;}
+  ul.clearfix li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+ 
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens*/
+@media screen and (max-width:680px) {
+  ul.clearfix.responsive {position: relative;}
+  ul.clearfix.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.clearfix.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.clearfix.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}

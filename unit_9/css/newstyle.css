@@ -10,20 +10,37 @@ body {
   font-family: "Montserrat", cursive;
   font-style: bold;
 }
+
+
 section {
   background-color: #aaaaaa;
   display: block;
   padding: 50px;
   opacity: .8;
 }
+
+.image{
+  height: 25%;
+  width: 25%
+}
+.design {
+  float: left;
+}
+.costume {
+  float: left;
+}
+.pub {
+  float: left;
+}
+
 ul{
     list-style: none;
 }
-img{
+/*img{
     max-width: 100%;
     height: auto;
     margin: 0 0 10px 0;
-}
+}*/
 header {
     background-color: #006666;
     border: 1px black solid;
@@ -55,6 +72,7 @@ a:hover {
   font-size: 0;
 }
 
+
 footer{
     background-color: #009999;
     border: 1px black solid;
@@ -79,6 +97,7 @@ aside {
   line-height: 1.5em;
   margin: 2em;
 }
+
 .fonts {
   font-family: "Josefin Sans", Helvetica;
   font-size: 34;
@@ -96,6 +115,7 @@ li{
   text-align: center;
 }
 
+}
 
 
 
